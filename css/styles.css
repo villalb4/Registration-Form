@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lato";
+  color: #828282;
+  font-size: 12px;
+  height: 100vh;
+  background-color: #e5e5e5;
+  background-image: url("../img/flowerPlant.jpeg");
+  background-size: cover;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  justify-content: space-around;
+}
+main {
+  background-color: white;
+  border-radius: 8px;
+  /* width: 473px; */
+}
+div {
+margin: 40.5px 40px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+.title > p {
+  margin-bottom: 28px;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+.email-form , .pass-form input {
+  width: 393px;
+}
+
+
+.name-form {
+  display: flex;
+  gap: 30px;
+}
+.name, .last {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.name , .last input {
+  width: 181.5px;
+}
+
+
+.pass-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+.birth-form {
+  display: flex;
+
+}
+.month {
+  margin:  0px;
+  border: none;
+  margin-right: 30px;
+  color: #828282;
+}
+.day input {
+  margin-right: 30px;
+}
+.months , .day , .year {
+  margin: 0px;
+}
+.day input {
+  width: 109px;
+}
+.year input {
+  width: 109px;
+}
+input {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #E0E0E0;
+  outline: none;
+}
+input:focus {
+  border-bottom: 2px solid #0088FF;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+ }
+
+
+.terms {
+  width: 389px;
+  margin-bottom: 40px;
+}
+a {
+  text-decoration: none;
+  color: #0088FF;
+}
+.butt {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding: 10px 24.5px;
+  background: #0088FF;
+  color: white;
+  font-weight: 700px;
+  border-radius: 9px;
+}
